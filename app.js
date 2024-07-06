@@ -16,6 +16,12 @@
 
 // print even number
 
-for (let i=2; i<=20; i=i+2){
+// for (let i=2; i<=20; i=i+2){
+//     console.log(i)
+// }
+
+//  infinite loop
+
+for (let i=1 ; ; i++){
     console.log(i)
 }
