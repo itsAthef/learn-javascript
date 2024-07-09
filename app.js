@@ -119,6 +119,68 @@
 //     }
 // }
 
+// for of 
+
+
+// let cars = ["ferrari","bmw","audi","lambo","buggati"];
+
+// for (car of cars){
+//     console.log(Car);
+// }
+
+
+// To Do app
+
+// let todo = ["eat", "sleep", "code"];
+
+// let list = console.log(todo);
+
+// if (add = prompt("add a task")){
+//     console.log(todo.push)
+// };
+
+
+// Todo App Final
+
+let tasks = [];
+
+let ask = prompt("Enter your task");
+
+while(true){
+   if( ask == "quit"){
+    console.log("You have quitted the application")
+    break;
+   }
+
+   if(ask == "list"){
+    console.log("--------------")
+    for(task of tasks){
+    console.log(task);
+    }
+    console.log("--------------")
+   } else if(ask == "add"){
+    let task = prompt("Add a new Task")
+    tasks.push(task)
+    console.log("Your Task has been added")
+   } 
+
+   let ask = prompt("Enter your task")
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // for (let i=1;i<=30;i++){
 //     if(i=i*i){
@@ -157,10 +219,4 @@
 // console.log(i)
 
 
-// for of 
 
-let cars = ["ferrari","bmw","audi","lambo","buggati"];
-
-for (car of cars){
-    console.log(Car);
-}
