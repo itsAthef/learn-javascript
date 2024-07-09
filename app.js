@@ -142,38 +142,54 @@
 
 // Todo App Final
 
-let tasks = [];
+// let tasks = [];
 
-let ask = prompt("Enter your task");
+// let ask = prompt("Enter your task");
 
-while(true){
-   if( ask == "quit"){
-    console.log("You have quitted the application")
-    break;
-   }
+// while(true){
+//    if( ask == "quit"){
+//     console.log("You have quitted the application")
+//     break;
+//    }
 
-   if(ask == "list"){
-    console.log("--------------")
-    for(task of tasks){
-    console.log(task);
-    }
-    console.log("--------------")
-   } else if(ask == "add"){
-    let task = prompt("Add a new Task")
-    tasks.push(task)
-    console.log("Your Task has been added")
-   } 
+//    if(ask == "list"){
+//     console.log("--------------")
+//     for(task of tasks){
+//     console.log(task);
+//     }
+//     console.log("--------------")
+//    } else if(ask == "add"){
+//     let task = prompt("Add a new Task")
+//     tasks.push(task)
+//     console.log("Your Task has been added")
+//    } 
 
-   let ask = prompt("Enter your task")
-
-
-}
+//    let ask = prompt("Enter your task")
 
 
+// }
 
 
 
+// object literals
 
+// let student = {
+//     name : "Athef",
+//     age : 23,
+//     Marks : 97
+// };
+
+
+
+// Post twitter object literals
+
+const post = {
+    username : "athef_ak",
+    content : "Gaming",
+    likes : 75,
+    reposts : 15,
+    tags : ["#gaming", "#solo", "#games"]
+};
 
 
 
