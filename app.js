@@ -191,7 +191,50 @@
 //     tags : ["#gaming", "#solo", "#games"]
 // };
 
+//  Obj of Obj
 
+// const classInfo = {
+//     student1 : {
+//         name : "athef",
+//         age : 23,
+//         marks : 95
+//     },
+//     student2 :{
+//         name : "pandu",
+//         age : 24,
+//         marks : 98
+//     },
+//     student3:{
+//         name : "Rayan",
+//         age : 2,
+//         marks : 100
+//     }
+// };
+
+
+// const students = [
+//     {
+//         name : "athef",
+//         marks : 95
+//     },
+//     {
+//         name : "Pandu",
+//         marks : 97
+//     },
+//     {
+//         name :"Rayan",
+//         marks : 100
+//     }
+// ];
+
+
+// User enters a max number and guess a random generated number between 1 to max
+
+let ask = prompt("Guess a number");
+
+ask = Math.floor(Math.random()*ask) + 1;
+
+console.log(`Your Random Number is ${ask}`);
 
 
 
@@ -234,12 +277,13 @@
 // console.log(i)
 
 
+//  30 day question
 
-let x = 1;
-let y = x-1;
+// let x = 1;
+// let y = x-1;
 
-for(let i=1; i<=30; i++){
-    y=y+x;
-    x=x*2;
-console.log(`day ${i} : ${y}`);
-}
+// for(let i=1; i<=30; i++){
+//     y=y+x;
+//     x=x*2;
+// console.log(`day ${i} : ${y}`);
+// }
