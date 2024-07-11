@@ -183,14 +183,13 @@
 
 // Post twitter object literals
 
-const post = {
-    username : "athef_ak",
-    content : "Gaming",
-    likes : 75,
-    reposts : 15,
-    tags : ["#gaming", "#solo", "#games"]
-};
-
+// const post = {
+//     username : "athef_ak",
+//     content : "Gaming",
+//     likes : 75,
+//     reposts : 15,
+//     tags : ["#gaming", "#solo", "#games"]
+// };
 
 
 
@@ -236,3 +235,11 @@ const post = {
 
 
 
+let x = 1;
+let y = x-1;
+
+for(let i=1; i<=30; i++){
+    y=y+x;
+    x=x*2;
+console.log(`day ${i} : ${y}`);
+}
