@@ -230,11 +230,26 @@
 
 // User enters a max number and guess a random generated number between 1 to max
 
-let ask = prompt("Guess a number");
+let max = prompt("Enter a Maximum Number");
 
-ask = Math.floor(Math.random()*ask) + 1;
+let random = Math.floor(Math.random()*max) + 1;
 
-console.log(`Your Random Number is ${ask}`);
+let guess = prompt("Guess the Number");
+
+while(true){
+    if(max == "quit"){
+        console.log("You Quit");
+        break;
+    }
+if (guess == random){
+    console.log(`Your answer ${guess} is correct`);
+    break;
+}else{
+    guess = prompt("Guess the Number");
+}
+console.log(`The Answer is ${random}`)
+
+}
 
 
 
