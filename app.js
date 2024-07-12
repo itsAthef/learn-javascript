@@ -244,10 +244,15 @@ while(true){
 if (guess == random){
     console.log(`Your answer ${guess} is correct`);
     break;
-}else{
-    guess = prompt("Guess the Number");
+} else if(guess>random){
+    prompt("Hint : Try for a larger number")
+} else if(guess<random){
+    prompt("Hint : Try for a smaller number")
 }
-console.log(`The Answer is ${random}`)
+
+else{
+    guess = prompt("You are wrong, Guess again please");
+}
 
 }
 
