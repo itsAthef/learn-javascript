@@ -260,28 +260,53 @@
 
 
 
-// PQ 2
+// // PQ 2
 
-const car ={
-    name : "Lambo",
-    model : "Aventador",
-    colour : "Black"
-};
+// const car ={
+//     name : "Lambo",
+//     model : "Aventador",
+//     colour : "Black"
+// };
 
-// PQ3
+// // PQ3
 
-const person={
-    name : "Athef",
-    age : 23,
-    city : "Toronto"
+// const person={
+//     name : "Athef",
+//     age : 23,
+//     city : "Toronto"
+// }
+
+// // PQ1
+
+// let ask = prompt("Click enter");
+
+// let dice = Math.floor(Math.random()*6) + 1;
+
+
+// functions
+
+// let ask = prompt("Enter your name");
+
+// function name(){
+//     console.log(ask);
+// }
+
+// name();
+
+// function print(){
+//     for(let i = 1;i<=10;i++)
+//         console.log(i);
+// }
+
+// print();
+
+
+
+function poem () {
+    console.log("If you're bad, I'am your dad")
 }
 
-// PQ1
-
-let ask = prompt("Click enter");
-
-let dice = Math.floor(Math.random()*6) + 1;
-
+poem();
 
 
 
