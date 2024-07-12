@@ -230,31 +230,59 @@
 
 // User enters a max number and guess a random generated number between 1 to max
 
-let max = prompt("Enter a Maximum Number");
+// let max = prompt("Enter a Maximum Number");
 
-let random = Math.floor(Math.random()*max) + 1;
+// let random = Math.floor(Math.random()*max) + 1;
 
-let guess = prompt("Guess the Number");
+// let guess = prompt("Guess the Number");
 
-while(true){
-    if(max == "quit"){
-        console.log("You Quit");
-        break;
-    }
-if (guess == random){
-    console.log(`Your answer ${guess} is correct`);
-    break;
-} else if(guess>random){
-    prompt("Hint : Try for a larger number")
-} else if(guess<random){
-    prompt("Hint : Try for a smaller number")
+// while(true){
+//     if(max == "quit"){
+//         console.log("You Quit");
+//         break;
+//     }
+// if (guess == random){
+//     console.log(`Your answer ${guess} is correct`);
+//     break;
+// } else if(guess>random){
+//     prompt("Hint : Try for a larger number")
+// } else if(guess<random){
+//     prompt("Hint : Try for a smaller number")
+// }
+
+// else{
+//     guess = prompt("You are wrong, Guess again please");
+// }
+
+// }
+
+
+
+
+
+// PQ 2
+
+const car ={
+    name : "Lambo",
+    model : "Aventador",
+    colour : "Black"
+};
+
+// PQ3
+
+const person={
+    name : "Athef",
+    age : 23,
+    city : "Toronto"
 }
 
-else{
-    guess = prompt("You are wrong, Guess again please");
-}
+// PQ1
 
-}
+let ask = prompt("Click enter");
+
+let dice = Math.floor(Math.random()*6) + 1;
+
+
 
 
 
