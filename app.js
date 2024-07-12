@@ -302,14 +302,42 @@
 
 
 
-function poem () {
-    console.log("If you're bad, I'am your dad")
+// function poem () {
+//     console.log("If you're bad, I'am your dad")
+// }
+
+// poem();
+
+
+// roll dice
+
+// let roll = prompt("roll the dice");
+
+// function dice(){
+//     if(roll == "roll"){
+//         console.log(dice());
+//     }
+    
+//    let rand = Math.floor(Math.random()*6)+1;
+//    console.log(rand)
+// }
+
+// dice();
+
+
+
+let ask = prompt("Enter your name");
+
+let askAge = prompt("Enter you age");
+
+
+function printInfo(name, age){
+    if(ask == name, askAge==age){
+    console.log(`${ask}'s age is ${askAge}`);
+}
 }
 
-poem();
-
-
-
+printInfo(ask,askAge);
 
 
 
