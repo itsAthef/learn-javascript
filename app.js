@@ -326,18 +326,86 @@
 
 
 
-let ask = prompt("Enter your name");
+// let ask = prompt("Enter your name");
 
-let askAge = prompt("Enter you age");
+// let askAge = prompt("Enter you age");
 
 
-function printInfo(name, age){
-    if(ask == name, askAge==age){
-    console.log(`${ask}'s age is ${askAge}`);
+// function printInfo(name, age){
+//     if(ask == name, askAge==age){
+//     console.log(`${ask}'s age is ${askAge}`);
+// }
+// }
+
+// printInfo(ask,askAge);
+
+
+
+// Average
+
+// let num1 = prompt("enter first num");
+
+// let num2 = prompt("enter second num");
+
+// let num3 = prompt("enter third number");
+
+// function average(a,b,c){
+//     if(a==num1,b==num2,c==num3){
+//     console.log((a+b+c)/3);
+// }}
+
+// average(num1,num2,num3);
+
+
+// create a function to get user input birth year, 
+//  make sure it is year,
+//  make sure the year is not more than 2024
+// . and return his age, 
+
+
+
+let birthYear;
+const currentYear = 2024;
+
+function userAge (birthYear) {
+    return currentYear - birthYear;
 }
-}
 
-printInfo(ask,askAge);
+do {
+    birthYear  = prompt("Enter your birthday year. it should be between 1 to 2024");
+    
+} while (isNaN(birthYear) || birthYear < 1 || birthYear > 2024);
+
+console.log(userAge(birthYear));
+
+
+
+
+
+
+
+
+
+
+// function userAge (){
+//     while(true){
+//         if((birthYear>=currentYear)){
+//             alert("Invalid age, please try again")
+//             } 
+        
+//     let age = (currentYear-birthYear)
+//     console.log(`Your age is ${age}`)
+//     break;}
+
+// }
+// userAge();
+
+
+
+
+// 1 year = 365 day 
+
+
 
 
 
