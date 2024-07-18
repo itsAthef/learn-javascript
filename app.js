@@ -683,8 +683,19 @@
 // });
 
 
-let nums = [1,2,3,4,6,8,9,12,14,25,46,64,33];
+// let nums = [1,2,3,4,6,8,9,12,14,25,46,64,33];
 
-let ans = nums.filter((el)=>{
-    return el % 2!=0;
+// let ans = nums.filter((el)=>{
+//     return el % 2!=0;
+// });
+
+//  reduce function
+
+let nums = [1,2,3,4,5];
+
+let finalAns = nums.reduce((res,el)=>{
+    console.log(`res is ${res}`);
+    return res+el;
 });
+
+console.log(finalAns);
