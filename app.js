@@ -364,20 +364,96 @@
 
 
 
-let birthYear;
-const currentYear = 2024;
+// let birthYear;
+// const currentYear = 2024;
 
-function userAge (birthYear) {
-    return currentYear - birthYear;
-}
+// function userAge (birthYear) {
+//     return currentYear - birthYear;
+// }
 
-do {
-    birthYear  = prompt("Enter your birthday year. it should be between 1 to 2024");
+// do {
+//     birthYear  = prompt("Enter your birthday year. it should be between 1 to 2024");
     
-} while (isNaN(birthYear) || birthYear < 1 || birthYear > 2024);
+// } while (isNaN(birthYear) || birthYear < 1 || birthYear > 2024);
 
-console.log(userAge(birthYear));
+// console.log(userAge(birthYear));
 
+
+// PQ2
+
+
+// function table(n){
+//     for(let i=n;i<=n*10;i+=n){
+//         console.log(i);
+//     }
+// }
+
+// table(7);
+
+
+
+// function getSum(n){
+//     let sum = 0;
+//     for(let i=1;i<=n;i++){
+//         sum+=i
+//     }
+//     return sum;
+// }
+
+
+// let sum = function(a,b){
+//     return a+b
+// }
+
+
+// function greeting(func,n){
+//     for(let i=1;i<=n;i++){
+//         func();
+//     }
+
+// }
+
+// let greet = function(){
+//     console.log("hello");
+// }
+
+// greeting(greet,5)
+
+
+
+
+// let odd = function(n){
+//     console.log(!(n%2==0));
+// }
+// let even = function(n){
+//     console.log(n%2==0);
+// }
+
+
+// function oddOrEven(request){
+//     if(request==odd){
+//         console.log(odd);
+//     } if(request == even){
+//         console.log(even);
+//     }
+
+// }
+
+// oddOrEven(7);
+
+
+
+// const calculator={
+//     add(a,b){
+//         return a+b;
+//     },
+//     sub(a,b){
+//         return a-b;
+//     },
+//     mul(a,b){
+//         return a*b;
+//     }
+// }
 
 
 
@@ -456,3 +532,159 @@ console.log(userAge(birthYear));
 //     x=x*2;
 // console.log(`day ${i} : ${y}`);
 // }
+
+
+
+
+// const player ={
+//     name : "Athef",
+//     age : 23,
+//     Pace : 93,
+//     Shoot : 95,
+//     Phy : 98,
+
+//     avgPlayer(){
+//         let avg = (this.Pace + this.Shoot + this.Phy)/3;
+//         console.log(avg);
+//    }
+
+// };
+
+
+
+// console.log("Football");
+// console.log("Football");
+
+// let sport= "game"
+// try{
+//     console.log(sport);
+// } catch(err){
+//     console.log("there is an error in declaring var sport")
+//     console.log(err);
+// }
+
+
+// console.log("Soccer");
+// console.log("Soccer");
+// console.log("Soccer");
+
+
+// const sum = (a,b)=>{
+//     console.log(a+b);
+// }
+
+
+// const power = (a,b)=>{
+//     return a**b;    
+// }
+
+// const mul = (a,b)=>
+//     a*b;
+
+
+
+// console.log("Hi There,");
+
+// let name = setTimeout(()=>{console.log("Athef")},4000);
+
+
+// console.log("Welcome to")
+
+// let id = setInterval(()=>{console.log("Hi There")},2000);
+
+
+// const student ={
+//     name : "athef",
+//     age : 23,
+//     getName : function(){
+//         console.log(this);
+//         return this.name;
+//     },
+//     getAge : ()=>{
+//         console.log(this);
+//         return this.age;
+//     },
+//     // getInfo : function(){
+//     //     setInterval(()=>{console.log(this)},2000);
+//     // },
+//     getInfo2 : function(){
+//         setInterval(function(){console.log(this)},2000);
+//     }
+// }
+
+
+
+// let n;
+
+// let arr = (n)=>{
+//     return n*n;
+// }
+
+
+
+// const print = setInterval(()=>{"hello World"},2000);
+
+
+//     let getInfo = function(){
+//         setInterval(()=>{console.log("this")},2000);
+//     };
+
+//     clearInterval(5);
+
+
+// let id = setInterval(()=>{"hello world"},2000);
+
+// setTimeout(() => {
+//     clearInterval(id);
+// }, 10000);
+
+
+// let arr = [2,5,6,23,56,73];
+
+// let print = function(el){
+//     console.log(el);
+// };
+
+// arr.forEach(print);
+
+
+// const arr = [ {
+//     name : "athef",
+//     marks : 95
+// },
+// {
+//     name : "pandu",
+//     marks : 97
+// },
+// {
+//     name : "rayan",
+//     marks : 100
+// }
+// ];
+
+
+// let gpa = arr.map((el)=>{
+//     return el.marks / 10;
+// })
+
+
+
+// arr.forEach((students) => {
+//     console.log(students.marks);
+// });
+
+
+
+
+// let num = [1,2,3,4,5];
+
+// let square = num.map((el)=>{
+//     return el * el;
+// });
+
+
+let nums = [1,2,3,4,6,8,9,12,14,25,46,64,33];
+
+let ans = nums.filter((el)=>{
+    return el % 2!=0;
+});
